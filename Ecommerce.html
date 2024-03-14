@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ecommerce</h1>
+    <form>
+
+        <div>
+            <label for="stockitem">Stock item</label>
+            <input type="text" id="stockitem" >
+        </div>
+        <div>
+            <label for="img">Image</label>
+            <input type="file" id="imgide">
+        </div>
+        <div>
+            <label for="qty">Quantity</label>
+            <input type="text" id="quantity">
+        </div>
+        <div>
+            <label for="Rate">Rate</label>
+            <input type="text" id="rate">
+        </div>
+        <div>
+            <label for="amount">Amount</label>
+            <input type="text" id="amount">
+        </div>
+        <input type="button" id="imgbtn" value="Print Invoice">
+    </div>
+</form>
+<table border="25px">
+        <thead>
+            <th>Stock Item</th>
+            <th>Image</th>
+            <th>Quantity</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </thead>
+        <tbody id="tblbody"></tbody>
+    </table>
+    <script src="ecommerce.js"></script>
+</body>
+
+</html>
